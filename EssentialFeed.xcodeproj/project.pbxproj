@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		443D3DC92B7D293200BBA500 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D3DC82B7D293200BBA500 /* HTTPClient.swift */; };
+		443D3DCB2B7D29D700BBA500 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443D3DCA2B7D29D700BBA500 /* FeedItemsMapper.swift */; };
 		44A6C9F52B6810FD004868E4 /* EssentialFeed.docc in Sources */ = {isa = PBXBuildFile; fileRef = 44A6C9F42B6810FD004868E4 /* EssentialFeed.docc */; };
 		44A6C9FB2B6810FD004868E4 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A6C9F02B6810FD004868E4 /* EssentialFeed.framework */; };
 		44A6CA002B6810FE004868E4 /* EssentialFeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6C9FF2B6810FE004868E4 /* EssentialFeedTests.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		443D3DC82B7D293200BBA500 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		443D3DCA2B7D29D700BBA500 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
 		44A6C9F02B6810FD004868E4 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A6C9F32B6810FD004868E4 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
 		44A6C9F42B6810FD004868E4 /* EssentialFeed.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = EssentialFeed.docc; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		44A6C9E62B6810FD004868E4 = {
 			isa = PBXGroup;
 			children = (
+				443D3DCA2B7D29D700BBA500 /* FeedItemsMapper.swift */,
 				44A6C9F22B6810FD004868E4 /* EssentialFeed */,
 				44A6C9FE2B6810FE004868E4 /* EssentialFeedTests */,
 				44A6C9F12B6810FD004868E4 /* Products */,
@@ -228,6 +231,7 @@
 				44A6CA142B6AA80F004868E4 /* RemoteFeedLoader.swift in Sources */,
 				443D3DC92B7D293200BBA500 /* HTTPClient.swift in Sources */,
 				44A6CA0D2B681396004868E4 /* FeedLoader.swift in Sources */,
+				443D3DCB2B7D29D700BBA500 /* FeedItemsMapper.swift in Sources */,
 				44A6CA0B2B681121004868E4 /* FeedItem.swift in Sources */,
 				44A6C9F52B6810FD004868E4 /* EssentialFeed.docc in Sources */,
 			);
